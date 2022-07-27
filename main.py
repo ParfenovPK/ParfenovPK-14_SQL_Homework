@@ -135,8 +135,8 @@ def  type_film(typ, year, genre):
     return json.dumps(result, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
-    # print(search_double_name('Rose McIver', 'Ben Lamb'))
-    # print(type_film("Movie", "2021", "Documentaries"))
+#print(search_double_name('Rose McIver', 'Ben Lamb'))
+#print(type_film("Movie", "2021", "Documentaries"))
     app.run(
         host='0.0.0.0',
         port=8080,
